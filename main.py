@@ -1,4 +1,5 @@
-# 1. Create a Dictionary ==========================
+# 1. Create a Dictionary 
+print("\n1.================================")
 
 push_ups = {
 
@@ -8,8 +9,10 @@ push_ups = {
     "notes": "Keeps your back straight, hands shoulder_width apart"
 
 }
+print(push_ups)
 
-# 2. Accessing Dictionary keys ===================
+# 2. Accessing Dictionary keys
+print("\n2.================================")
 
 # print out keys from the dictionary
 print(push_ups["exercise"])
@@ -18,7 +21,8 @@ print(push_ups["reps"])
 print(push_ups["notes"])
 
 
-# 3.Accessing Dictionary keys ===================
+# 3.Accessing Dictionary keys
+print("\n3.================================")
 
 # update the sets of the exercise
 push_ups["sets"] = 5
@@ -33,7 +37,8 @@ push_ups["workout_note"] = "Keep your back straight, hands shoulder_width apart"
 print(push_ups)
 
 
-# 4. Accessing nested data =======================
+# 4. Accessing nested data
+print("\n4.================================")
 # - Add the nested dictionary below
 workout_plan = {
     "Push-ups": {
@@ -68,7 +73,8 @@ workout_plan = {
 print(workout_plan["Lunges"]["notes"])
 
 
-# 5. Iterating over a dictionary =================================
-
+# 5. Iterating over a dictionary 
+print("\n5.================================")
 for key, value in workout_plan.items():
     print(f"{key.upper()}:{value}")
+print("\n=================================")
